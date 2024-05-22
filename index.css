@@ -1,0 +1,72 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #b9dec2;
+}
+
+h1 {
+    color: #70cae6;
+    text-align: center; 
+    margin-top: 30px;
+    font-weight: bolder;
+    -webkit-text-stroke-width: 0.8px;
+    -webkit-text-stroke-color: black;
+    font-size: 35px;
+    background-image: url('https://i.pinimg.com/originals/60/a8/2c/60a82c6cf7fda046b291e6b2c78ea531.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    padding: 0;
+}
+
+nav li {
+    margin: 0 15px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #007BFF;
+    font-weight: bold;
+}
+
+.content {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 40px;
+    padding: 20px;
+    max-width: 1200px;
+    justify-content: center;
+    align-content: center;
+    
+}
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+.city {
+    text-align: center;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 10px;
+    box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.1);
+    width: 100%;
+}
+.city img {
+    height: auto;
+    max-width: 100%;
+    border-radius: 10px;
+}
+.error {
+    color: red;
+}
