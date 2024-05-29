@@ -43,6 +43,7 @@ nav a {
     max-width: 1200px;
     justify-content: center;
     align-content: center;
+    margin-bottom: 100px;
 }
 .container {
     display: flex;
